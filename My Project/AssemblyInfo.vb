@@ -8,14 +8,14 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("VB_IDE")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("SpydazWeb")>
-<Assembly: AssemblyProduct("VB_IDE")>
+<Assembly: AssemblyTitle("Basic VB Repl 2023")>
+<Assembly: AssemblyDescription("Visual Basic REPL 2023")>
+<Assembly: AssemblyCompany("SpydazWebAI Creations")>
+<Assembly: AssemblyProduct("Visual Basic REPL 2023")>
 <Assembly: AssemblyCopyright("Copyright © SpydazWeb 2023")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTrademark("Copyright © SpydazWeb 2023")>
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(True)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("a87ca90b-699e-4729-a5ad-c3e090bda466")>

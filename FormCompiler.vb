@@ -1,10 +1,10 @@
 ﻿Imports System.Drawing.Text
 Imports System.IO
 Imports System.Reflection
-Imports VB_IDE
-Imports VB_IDE.Controls
-Imports VB_IDE.TabControls
-Imports VB_IDE.TabControls.MasterTabControl
+Imports VB_Repl
+Imports VB_Repl.Controls
+Imports VB_Repl.TabControls
+Imports VB_Repl.TabControls.MasterTabControl
 Public Class FormCompiler
     Dim Assemblys As List(Of String)
     Dim EmbeddedFiles As List(Of String)

@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 Imports System.Net
-Imports VB_IDE.Controls
+Imports VB_Repl.Controls
 
 Namespace Controls
 

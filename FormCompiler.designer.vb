@@ -1,7 +1,6 @@
-﻿Imports BasicUserControls.Controls
-Imports SpydazWebAI_ControlLibrary
-Imports SpydazWebAI_ControlLibrary.Controls
-Imports VB_IDE.Controls
+﻿
+Imports VB_Repl.Controls
+
 
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FormCompiler
@@ -261,7 +260,7 @@ Partial Class FormCompiler
         '
         'SplitContainer1.Panel2
         '
-        Me.SplitContainer1.Panel2.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex16
+        Me.SplitContainer1.Panel2.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex16
         Me.SplitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SplitContainer1.Panel2.Controls.Add(Me.TabControlFileBrowsers)
         Me.SplitContainer1.Panel2.Controls.Add(Me.TabPanelControlBar)
@@ -280,7 +279,7 @@ Partial Class FormCompiler
         '
         'SplitContainer2.Panel1
         '
-        Me.SplitContainer2.Panel1.BackgroundImage = Global.VB_IDE.My.Resources.Resources.BackGround_BluPrint
+        Me.SplitContainer2.Panel1.BackgroundImage = Global.VB_Repl.My.Resources.Resources.BackGround_BluPrint
         Me.SplitContainer2.Panel1.Controls.Add(Me.ToolStripMainFileControl)
         Me.SplitContainer2.Panel1.Font = New System.Drawing.Font("Berkeley Oldstyle", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
@@ -295,7 +294,7 @@ Partial Class FormCompiler
         'ToolStripMainFileControl
         '
         Me.ToolStripMainFileControl.BackColor = System.Drawing.Color.Silver
-        Me.ToolStripMainFileControl.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.ToolStripMainFileControl.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.ToolStripMainFileControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripMainFileControl.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStripMainFileControl.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSeparator24, Me.ButtonProject, Me.ToolStripSeparator2, Me.ButtonBuild, Me.ToolStripSeparator1, Me.ToolStripDropDownButton5, Me.ToolStripSeparator3, Me.ToolStripButton1, Me.ToolStripSeparator25})
@@ -313,11 +312,11 @@ Partial Class FormCompiler
         '
         'ButtonProject
         '
-        Me.ButtonProject.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ButtonProject.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ButtonProject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ButtonProject.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.LosdProjectToolStripMenuItem, Me.SaveProjectToolStripMenuItem})
         Me.ButtonProject.ForeColor = System.Drawing.Color.Black
-        Me.ButtonProject.Image = Global.VB_IDE.My.Resources.Resources.App_Group
+        Me.ButtonProject.Image = Global.VB_Repl.My.Resources.Resources.App_Group
         Me.ButtonProject.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ButtonProject.Name = "ButtonProject"
         Me.ButtonProject.Size = New System.Drawing.Size(89, 36)
@@ -328,7 +327,7 @@ Partial Class FormCompiler
         Me.NewToolStripMenuItem.BackgroundImage = CType(resources.GetObject("NewToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.NewToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.NewToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.NewToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_filenew
+        Me.NewToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_filenew
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
         Me.NewToolStripMenuItem.Size = New System.Drawing.Size(156, 38)
         Me.NewToolStripMenuItem.Text = "New"
@@ -338,7 +337,7 @@ Partial Class FormCompiler
         Me.LosdProjectToolStripMenuItem.BackgroundImage = CType(resources.GetObject("LosdProjectToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.LosdProjectToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.LosdProjectToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.LosdProjectToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_fileopen
+        Me.LosdProjectToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_fileopen
         Me.LosdProjectToolStripMenuItem.Name = "LosdProjectToolStripMenuItem"
         Me.LosdProjectToolStripMenuItem.Size = New System.Drawing.Size(156, 38)
         Me.LosdProjectToolStripMenuItem.Text = "Load Project"
@@ -348,7 +347,7 @@ Partial Class FormCompiler
         Me.SaveProjectToolStripMenuItem.BackgroundImage = CType(resources.GetObject("SaveProjectToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.SaveProjectToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SaveProjectToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.SaveProjectToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_filesave
+        Me.SaveProjectToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_filesave
         Me.SaveProjectToolStripMenuItem.Name = "SaveProjectToolStripMenuItem"
         Me.SaveProjectToolStripMenuItem.Size = New System.Drawing.Size(156, 38)
         Me.SaveProjectToolStripMenuItem.Text = "Save Project"
@@ -361,11 +360,11 @@ Partial Class FormCompiler
         'ButtonBuild
         '
         Me.ButtonBuild.BackColor = System.Drawing.Color.Transparent
-        Me.ButtonBuild.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ButtonBuild.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ButtonBuild.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ButtonBuild.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExecuteToolStripREPL, Me.ToolStripMenuItem2})
         Me.ButtonBuild.ForeColor = System.Drawing.Color.Black
-        Me.ButtonBuild.Image = Global.VB_IDE.My.Resources.Resources.App_Compile
+        Me.ButtonBuild.Image = Global.VB_Repl.My.Resources.Resources.App_Compile
         Me.ButtonBuild.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ButtonBuild.Name = "ButtonBuild"
         Me.ButtonBuild.Size = New System.Drawing.Size(79, 36)
@@ -376,7 +375,7 @@ Partial Class FormCompiler
         Me.ExecuteToolStripREPL.BackgroundImage = CType(resources.GetObject("ExecuteToolStripREPL.BackgroundImage"), System.Drawing.Image)
         Me.ExecuteToolStripREPL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ExecuteToolStripREPL.ForeColor = System.Drawing.Color.White
-        Me.ExecuteToolStripREPL.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_Run
+        Me.ExecuteToolStripREPL.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_Run
         Me.ExecuteToolStripREPL.Name = "ExecuteToolStripREPL"
         Me.ExecuteToolStripREPL.Size = New System.Drawing.Size(175, 38)
         Me.ExecuteToolStripREPL.Text = "Run Project"
@@ -387,21 +386,21 @@ Partial Class FormCompiler
         Me.ToolStripMenuItem2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExeToolStripMenuItem, Me.DLLToolStripMenuItem})
         Me.ToolStripMenuItem2.ForeColor = System.Drawing.Color.White
-        Me.ToolStripMenuItem2.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_Complie
+        Me.ToolStripMenuItem2.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_Complie
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
         Me.ToolStripMenuItem2.Size = New System.Drawing.Size(175, 38)
         Me.ToolStripMenuItem2.Text = "Compile Project"
         '
         'ExeToolStripMenuItem
         '
-        Me.ExeToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_SucessBuild
+        Me.ExeToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_SucessBuild
         Me.ExeToolStripMenuItem.Name = "ExeToolStripMenuItem"
         Me.ExeToolStripMenuItem.Size = New System.Drawing.Size(110, 38)
         Me.ExeToolStripMenuItem.Text = "EXE"
         '
         'DLLToolStripMenuItem
         '
-        Me.DLLToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_UnsucessBuild
+        Me.DLLToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_UnsucessBuild
         Me.DLLToolStripMenuItem.Name = "DLLToolStripMenuItem"
         Me.DLLToolStripMenuItem.Size = New System.Drawing.Size(110, 38)
         Me.DLLToolStripMenuItem.Text = "DLL"
@@ -414,10 +413,10 @@ Partial Class FormCompiler
         'ToolStripDropDownButton5
         '
         Me.ToolStripDropDownButton5.BackColor = System.Drawing.Color.Silver
-        Me.ToolStripDropDownButton5.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ToolStripDropDownButton5.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ToolStripDropDownButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripDropDownButton5.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProjectNameToolStripMenuItem, Me.MainClassNameToolStripMenuItem, Me.ExecuteFunctionNAmeToolStripMenuItem, Me.SetProgrammingLanguageToolStripMenuItem})
-        Me.ToolStripDropDownButton5.Image = Global.VB_IDE.My.Resources.Resources.APP_Tools
+        Me.ToolStripDropDownButton5.Image = Global.VB_Repl.My.Resources.Resources.APP_Tools
         Me.ToolStripDropDownButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButton5.Name = "ToolStripDropDownButton5"
         Me.ToolStripDropDownButton5.Size = New System.Drawing.Size(134, 36)
@@ -429,7 +428,7 @@ Partial Class FormCompiler
         Me.ProjectNameToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ProjectNameToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripTextBoxProjectName})
         Me.ProjectNameToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.ProjectNameToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.fileIconTextEdit
+        Me.ProjectNameToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.fileIconTextEdit
         Me.ProjectNameToolStripMenuItem.Name = "ProjectNameToolStripMenuItem"
         Me.ProjectNameToolStripMenuItem.Size = New System.Drawing.Size(238, 38)
         Me.ProjectNameToolStripMenuItem.Text = "Project Name"
@@ -447,7 +446,7 @@ Partial Class FormCompiler
         Me.MainClassNameToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.MainClassNameToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripTextBoxMainClassName})
         Me.MainClassNameToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.MainClassNameToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.fileIconTextEdit
+        Me.MainClassNameToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.fileIconTextEdit
         Me.MainClassNameToolStripMenuItem.Name = "MainClassNameToolStripMenuItem"
         Me.MainClassNameToolStripMenuItem.Size = New System.Drawing.Size(238, 38)
         Me.MainClassNameToolStripMenuItem.Text = "Main ClassName"
@@ -466,7 +465,7 @@ Partial Class FormCompiler
         Me.ExecuteFunctionNAmeToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ExecuteFunctionNAmeToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripTextBoxFunctionName})
         Me.ExecuteFunctionNAmeToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.ExecuteFunctionNAmeToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.fileIconTextEdit
+        Me.ExecuteFunctionNAmeToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.fileIconTextEdit
         Me.ExecuteFunctionNAmeToolStripMenuItem.Name = "ExecuteFunctionNAmeToolStripMenuItem"
         Me.ExecuteFunctionNAmeToolStripMenuItem.Size = New System.Drawing.Size(238, 38)
         Me.ExecuteFunctionNAmeToolStripMenuItem.Text = "Execute FunctionName"
@@ -485,7 +484,7 @@ Partial Class FormCompiler
         Me.SetProgrammingLanguageToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SetProgrammingLanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBoxProgLang})
         Me.SetProgrammingLanguageToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.SetProgrammingLanguageToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.fileIconTextEdit
+        Me.SetProgrammingLanguageToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.fileIconTextEdit
         Me.SetProgrammingLanguageToolStripMenuItem.Name = "SetProgrammingLanguageToolStripMenuItem"
         Me.SetProgrammingLanguageToolStripMenuItem.Size = New System.Drawing.Size(238, 38)
         Me.SetProgrammingLanguageToolStripMenuItem.Text = "Set Programming Language"
@@ -505,10 +504,10 @@ Partial Class FormCompiler
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ToolStripButton1.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ToolStripButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripButton1.ForeColor = System.Drawing.Color.Black
-        Me.ToolStripButton1.Image = Global.VB_IDE.My.Resources.Resources.App_Info
+        Me.ToolStripButton1.Image = Global.VB_Repl.My.Resources.Resources.App_Info
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(68, 36)
@@ -522,7 +521,7 @@ Partial Class FormCompiler
         'GroupBox3
         '
         Me.GroupBox3.BackColor = System.Drawing.Color.Silver
-        Me.GroupBox3.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex16
+        Me.GroupBox3.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex16
         Me.GroupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox3.Controls.Add(Me.SpydazWebTabcontrolScripts)
         Me.GroupBox3.Controls.Add(Me.MenuStripScriptTabsEditor)
@@ -634,10 +633,10 @@ Partial Class FormCompiler
         'ButtonCloseScriptTab
         '
         Me.ButtonCloseScriptTab.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ButtonCloseScriptTab.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ButtonCloseScriptTab.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ButtonCloseScriptTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ButtonCloseScriptTab.ForeColor = System.Drawing.Color.Black
-        Me.ButtonCloseScriptTab.Image = Global.VB_IDE.My.Resources.Resources.App_Close
+        Me.ButtonCloseScriptTab.Image = Global.VB_Repl.My.Resources.Resources.App_Close
         Me.ButtonCloseScriptTab.Name = "ButtonCloseScriptTab"
         Me.ButtonCloseScriptTab.Size = New System.Drawing.Size(89, 25)
         Me.ButtonCloseScriptTab.Text = "Close Tab"
@@ -645,11 +644,11 @@ Partial Class FormCompiler
         'CreateFileToolStripMenuItem
         '
         Me.CreateFileToolStripMenuItem.BackColor = System.Drawing.Color.Black
-        Me.CreateFileToolStripMenuItem.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.CreateFileToolStripMenuItem.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.CreateFileToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CreateFileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewConsoleScriptToolStripMenuItem, Me.ToolStripButtonExtensions})
         Me.CreateFileToolStripMenuItem.ForeColor = System.Drawing.Color.Black
-        Me.CreateFileToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Generic_Document
+        Me.CreateFileToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Generic_Document
         Me.CreateFileToolStripMenuItem.Name = "CreateFileToolStripMenuItem"
         Me.CreateFileToolStripMenuItem.Size = New System.Drawing.Size(94, 25)
         Me.CreateFileToolStripMenuItem.Text = "Create File"
@@ -660,7 +659,7 @@ Partial Class FormCompiler
         Me.NewConsoleScriptToolStripMenuItem.BackgroundImage = CType(resources.GetObject("NewConsoleScriptToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.NewConsoleScriptToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.NewConsoleScriptToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.NewConsoleScriptToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Generic_Document
+        Me.NewConsoleScriptToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Generic_Document
         Me.NewConsoleScriptToolStripMenuItem.Name = "NewConsoleScriptToolStripMenuItem"
         Me.NewConsoleScriptToolStripMenuItem.ShowShortcutKeys = False
         Me.NewConsoleScriptToolStripMenuItem.Size = New System.Drawing.Size(197, 26)
@@ -674,7 +673,7 @@ Partial Class FormCompiler
         Me.ToolStripButtonExtensions.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PluginsToolStripMenuItem, Me.UpdatesToolStripMenuItem, Me.AvatarsToolStripMenuItem, Me.InputDevicesToolStripMenuItem, Me.OutputDevicesToolStripMenuItem, Me.ToolStripMenuItem3})
         Me.ToolStripButtonExtensions.Font = New System.Drawing.Font("Comic Sans MS", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripButtonExtensions.ForeColor = System.Drawing.Color.White
-        Me.ToolStripButtonExtensions.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_siri
+        Me.ToolStripButtonExtensions.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_siri
         Me.ToolStripButtonExtensions.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonExtensions.Name = "ToolStripButtonExtensions"
         Me.ToolStripButtonExtensions.Size = New System.Drawing.Size(137, 25)
@@ -927,7 +926,7 @@ Partial Class FormCompiler
         Me.ToolStripMenuItem4.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem7, Me.ToolStripMenuItem5, Me.ToolStripMenuItem6, Me.ToolStripMenuItem8, Me.ToolStripSeparator32, Me.ToolStripMenuItem9, Me.ToolStripMenuItem10, Me.ToolStripMenuItem11, Me.ToolStripSeparator33})
         Me.ToolStripMenuItem4.Font = New System.Drawing.Font("Comic Sans MS", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripMenuItem4.ForeColor = System.Drawing.Color.White
-        Me.ToolStripMenuItem4.Image = Global.VB_IDE.My.Resources.Resources.fileIconTextEdit
+        Me.ToolStripMenuItem4.Image = Global.VB_Repl.My.Resources.Resources.fileIconTextEdit
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(202, 26)
         Me.ToolStripMenuItem4.Text = "Insert Structure"
@@ -1009,7 +1008,7 @@ Partial Class FormCompiler
         '
         'ToolStripScriptDevlopment
         '
-        Me.ToolStripScriptDevlopment.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.ToolStripScriptDevlopment.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.ToolStripScriptDevlopment.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripScriptDevlopment.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStripScriptDevlopment.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DevNewToolStripMenuItem3, Me.DevOpenToolStripButton, Me.DevSaveToolStripButton, Me.DevSaveAsToolStripButton, Me.ToolStripSeparator8, Me.SelectAllToolStripMenuItem, Me.DevCutToolStripButton, Me.DevCopyToolStripButton, Me.DevPasteToolStripButton, Me.DevRedoToolStripButton, Me.DevUndoToolStripButton, Me.ToolStripSeparator9, Me.DevPrintToolStripButton, Me.DevHelpToolStripButton, Me.DevCutToolStripSeparator, Me.ToolStripComboBoxFONTFAMILY, Me.ToolStripSeparator11, Me.ToolStripComboBoxFONT_SIZE, Me.ToolStripSeparator10})
@@ -1023,7 +1022,7 @@ Partial Class FormCompiler
         '
         Me.DevNewToolStripMenuItem3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.DevNewToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem12})
-        Me.DevNewToolStripMenuItem3.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_filenew
+        Me.DevNewToolStripMenuItem3.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_filenew
         Me.DevNewToolStripMenuItem3.Name = "DevNewToolStripMenuItem3"
         Me.DevNewToolStripMenuItem3.Size = New System.Drawing.Size(44, 39)
         Me.DevNewToolStripMenuItem3.Text = "Create Component"
@@ -1101,7 +1100,7 @@ Partial Class FormCompiler
         'DevOpenToolStripButton
         '
         Me.DevOpenToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevOpenToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_fileopen
+        Me.DevOpenToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_fileopen
         Me.DevOpenToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevOpenToolStripButton.Name = "DevOpenToolStripButton"
         Me.DevOpenToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1110,7 +1109,7 @@ Partial Class FormCompiler
         'DevSaveToolStripButton
         '
         Me.DevSaveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevSaveToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_filesave
+        Me.DevSaveToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_filesave
         Me.DevSaveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevSaveToolStripButton.Name = "DevSaveToolStripButton"
         Me.DevSaveToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1119,7 +1118,7 @@ Partial Class FormCompiler
         'DevSaveAsToolStripButton
         '
         Me.DevSaveAsToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevSaveAsToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_filesaveas
+        Me.DevSaveAsToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_filesaveas
         Me.DevSaveAsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevSaveAsToolStripButton.Name = "DevSaveAsToolStripButton"
         Me.DevSaveAsToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1134,7 +1133,7 @@ Partial Class FormCompiler
         '
         Me.SelectAllToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.SelectAllToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.SelectAllToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_launchpad
+        Me.SelectAllToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_launchpad
         Me.SelectAllToolStripMenuItem.Name = "SelectAllToolStripMenuItem"
         Me.SelectAllToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
         Me.SelectAllToolStripMenuItem.Text = "Select All"
@@ -1142,7 +1141,7 @@ Partial Class FormCompiler
         'DevCutToolStripButton
         '
         Me.DevCutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevCutToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_editcut
+        Me.DevCutToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_editcut
         Me.DevCutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevCutToolStripButton.Name = "DevCutToolStripButton"
         Me.DevCutToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1151,7 +1150,7 @@ Partial Class FormCompiler
         'DevCopyToolStripButton
         '
         Me.DevCopyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevCopyToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_editcopy
+        Me.DevCopyToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_editcopy
         Me.DevCopyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevCopyToolStripButton.Name = "DevCopyToolStripButton"
         Me.DevCopyToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1160,7 +1159,7 @@ Partial Class FormCompiler
         'DevPasteToolStripButton
         '
         Me.DevPasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevPasteToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_editpaste
+        Me.DevPasteToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_editpaste
         Me.DevPasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevPasteToolStripButton.Name = "DevPasteToolStripButton"
         Me.DevPasteToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1169,7 +1168,7 @@ Partial Class FormCompiler
         'DevRedoToolStripButton
         '
         Me.DevRedoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevRedoToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_editredo
+        Me.DevRedoToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_editredo
         Me.DevRedoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevRedoToolStripButton.Name = "DevRedoToolStripButton"
         Me.DevRedoToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1179,7 +1178,7 @@ Partial Class FormCompiler
         'DevUndoToolStripButton
         '
         Me.DevUndoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevUndoToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_editundo
+        Me.DevUndoToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_editundo
         Me.DevUndoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevUndoToolStripButton.Name = "DevUndoToolStripButton"
         Me.DevUndoToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1202,7 +1201,7 @@ Partial Class FormCompiler
         'DevHelpToolStripButton
         '
         Me.DevHelpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.DevHelpToolStripButton.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_information
+        Me.DevHelpToolStripButton.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_information
         Me.DevHelpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DevHelpToolStripButton.Name = "DevHelpToolStripButton"
         Me.DevHelpToolStripButton.Size = New System.Drawing.Size(36, 36)
@@ -1269,7 +1268,7 @@ Partial Class FormCompiler
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.Black
-        Me.GroupBox4.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.GroupBox4.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.GroupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox4.Controls.Add(Me.InteractiveReplScript)
         Me.GroupBox4.Controls.Add(Me.SpydazWebLineNumbering2)
@@ -1343,7 +1342,7 @@ Partial Class FormCompiler
         'ToolStripInteractiveRepl
         '
         Me.ToolStripInteractiveRepl.BackColor = System.Drawing.Color.Black
-        Me.ToolStripInteractiveRepl.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.ToolStripInteractiveRepl.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.ToolStripInteractiveRepl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripInteractiveRepl.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStripInteractiveRepl.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSeparator12, Me.ToolStripButtonExecuteInteractive, Me.ToolStripSeparator13, Me.ToolStripButtonClearInteractive, Me.ToolStripTextBoxClassNameInteractive, Me.ToolStripTextBoxFunctionNameInteractive})
@@ -1361,7 +1360,7 @@ Partial Class FormCompiler
         'ToolStripButtonExecuteInteractive
         '
         Me.ToolStripButtonExecuteInteractive.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButtonExecuteInteractive.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_Complie
+        Me.ToolStripButtonExecuteInteractive.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_Complie
         Me.ToolStripButtonExecuteInteractive.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonExecuteInteractive.Name = "ToolStripButtonExecuteInteractive"
         Me.ToolStripButtonExecuteInteractive.Size = New System.Drawing.Size(36, 36)
@@ -1375,7 +1374,7 @@ Partial Class FormCompiler
         'ToolStripButtonClearInteractive
         '
         Me.ToolStripButtonClearInteractive.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButtonClearInteractive.Image = Global.VB_IDE.My.Resources.Resources.App_Refresh
+        Me.ToolStripButtonClearInteractive.Image = Global.VB_Repl.My.Resources.Resources.App_Refresh
         Me.ToolStripButtonClearInteractive.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonClearInteractive.Name = "ToolStripButtonClearInteractive"
         Me.ToolStripButtonClearInteractive.Size = New System.Drawing.Size(36, 36)
@@ -1414,7 +1413,7 @@ Partial Class FormCompiler
         'GroupBox38
         '
         Me.GroupBox38.BackColor = System.Drawing.Color.Black
-        Me.GroupBox38.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.GroupBox38.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.GroupBox38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox38.Controls.Add(Me.RichTextBoxCompilerInfo)
         Me.GroupBox38.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1448,7 +1447,7 @@ Partial Class FormCompiler
         'GroupBox39
         '
         Me.GroupBox39.BackColor = System.Drawing.Color.Black
-        Me.GroupBox39.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.GroupBox39.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.GroupBox39.Controls.Add(Me.TreeViewObjectSyntax)
         Me.GroupBox39.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.GroupBox39.Font = New System.Drawing.Font("Comic Sans MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1517,7 +1516,7 @@ Partial Class FormCompiler
         'ButtonOpenDir
         '
         Me.ButtonOpenDir.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ButtonOpenDir.BackgroundImage = Global.VB_IDE.My.Resources.Resources.FileIcon_bootcamp
+        Me.ButtonOpenDir.BackgroundImage = Global.VB_Repl.My.Resources.Resources.FileIcon_bootcamp
         Me.ButtonOpenDir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ButtonOpenDir.ForeColor = System.Drawing.Color.Black
         Me.ButtonOpenDir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -1568,7 +1567,7 @@ Partial Class FormCompiler
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Black
-        Me.GroupBox2.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.GroupBox2.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.GroupBox2.Controls.Add(Me.CheckedListBoxEmbeddedFiles)
         Me.GroupBox2.Controls.Add(Me.ToolStripEmbeddedFiles)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1601,7 +1600,7 @@ Partial Class FormCompiler
         'ToolStripEmbeddedFiles
         '
         Me.ToolStripEmbeddedFiles.BackColor = System.Drawing.Color.Black
-        Me.ToolStripEmbeddedFiles.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.ToolStripEmbeddedFiles.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.ToolStripEmbeddedFiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripEmbeddedFiles.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStripEmbeddedFiles.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmbededFileToolStripMenuItem, Me.ToolStripSeparator6, Me.RemoveEmbeddedFileToolStripMenuItem, Me.ToolStripSeparator7, Me.ClearFilesToolStripMenuItem})
@@ -1614,7 +1613,7 @@ Partial Class FormCompiler
         'AddEmbededFileToolStripMenuItem
         '
         Me.AddEmbededFileToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddEmbededFileToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_fileopen
+        Me.AddEmbededFileToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_fileopen
         Me.AddEmbededFileToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddEmbededFileToolStripMenuItem.Name = "AddEmbededFileToolStripMenuItem"
         Me.AddEmbededFileToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1628,7 +1627,7 @@ Partial Class FormCompiler
         'RemoveEmbeddedFileToolStripMenuItem
         '
         Me.RemoveEmbeddedFileToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.RemoveEmbeddedFileToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_error
+        Me.RemoveEmbeddedFileToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_error
         Me.RemoveEmbeddedFileToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.RemoveEmbeddedFileToolStripMenuItem.Name = "RemoveEmbeddedFileToolStripMenuItem"
         Me.RemoveEmbeddedFileToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1642,7 +1641,7 @@ Partial Class FormCompiler
         'ClearFilesToolStripMenuItem
         '
         Me.ClearFilesToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ClearFilesToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Refresh
+        Me.ClearFilesToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Refresh
         Me.ClearFilesToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ClearFilesToolStripMenuItem.Name = "ClearFilesToolStripMenuItem"
         Me.ClearFilesToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1663,7 +1662,7 @@ Partial Class FormCompiler
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.Black
-        Me.GroupBox1.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.GroupBox1.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.GroupBox1.Controls.Add(Me.CheckedListBoxAssemblys)
         Me.GroupBox1.Controls.Add(Me.ToolStripAssemblies)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -1696,7 +1695,7 @@ Partial Class FormCompiler
         'ToolStripAssemblies
         '
         Me.ToolStripAssemblies.BackColor = System.Drawing.Color.Black
-        Me.ToolStripAssemblies.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex15
+        Me.ToolStripAssemblies.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex15
         Me.ToolStripAssemblies.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripAssemblies.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ToolStripAssemblies.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddAssemblyToolStripMenuItem, Me.ToolStripSeparator4, Me.RemoveAssemblyToolStripMenuItem, Me.ToolStripSeparator5, Me.ClearAssemblyToolStripMenuItem})
@@ -1709,7 +1708,7 @@ Partial Class FormCompiler
         'AddAssemblyToolStripMenuItem
         '
         Me.AddAssemblyToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddAssemblyToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_fileopen
+        Me.AddAssemblyToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_fileopen
         Me.AddAssemblyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddAssemblyToolStripMenuItem.Name = "AddAssemblyToolStripMenuItem"
         Me.AddAssemblyToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1723,7 +1722,7 @@ Partial Class FormCompiler
         'RemoveAssemblyToolStripMenuItem
         '
         Me.RemoveAssemblyToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.RemoveAssemblyToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_error
+        Me.RemoveAssemblyToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_error
         Me.RemoveAssemblyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.RemoveAssemblyToolStripMenuItem.Name = "RemoveAssemblyToolStripMenuItem"
         Me.RemoveAssemblyToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1737,7 +1736,7 @@ Partial Class FormCompiler
         'ClearAssemblyToolStripMenuItem
         '
         Me.ClearAssemblyToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ClearAssemblyToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Refresh
+        Me.ClearAssemblyToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Refresh
         Me.ClearAssemblyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ClearAssemblyToolStripMenuItem.Name = "ClearAssemblyToolStripMenuItem"
         Me.ClearAssemblyToolStripMenuItem.Size = New System.Drawing.Size(36, 36)
@@ -1941,7 +1940,7 @@ Partial Class FormCompiler
         '
         'TabPanelControlBar
         '
-        Me.TabPanelControlBar.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex16
+        Me.TabPanelControlBar.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex16
         Me.TabPanelControlBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPanelControlBar.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.TabPanelControlBar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripDropDownButtonTabControl})
@@ -1954,10 +1953,10 @@ Partial Class FormCompiler
         'ToolStripDropDownButtonTabControl
         '
         Me.ToolStripDropDownButtonTabControl.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.ToolStripDropDownButtonTabControl.BackgroundImage = Global.VB_IDE.My.Resources.Resources.App_Texturex17
+        Me.ToolStripDropDownButtonTabControl.BackgroundImage = Global.VB_Repl.My.Resources.Resources.App_Texturex17
         Me.ToolStripDropDownButtonTabControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripDropDownButtonTabControl.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SDKToolStripMenuItem, Me.ProjectToolStripMenuItem, Me.InteractiveREPLToolStripMenuItem})
-        Me.ToolStripDropDownButtonTabControl.Image = Global.VB_IDE.My.Resources.Resources.App_Close
+        Me.ToolStripDropDownButtonTabControl.Image = Global.VB_Repl.My.Resources.Resources.App_Close
         Me.ToolStripDropDownButtonTabControl.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButtonTabControl.Name = "ToolStripDropDownButtonTabControl"
         Me.ToolStripDropDownButtonTabControl.Size = New System.Drawing.Size(75, 36)
@@ -1978,7 +1977,7 @@ Partial Class FormCompiler
         Me.PluginsToolStripMenuItem1.BackgroundImage = CType(resources.GetObject("PluginsToolStripMenuItem1.BackgroundImage"), System.Drawing.Image)
         Me.PluginsToolStripMenuItem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PluginsToolStripMenuItem1.ForeColor = System.Drawing.Color.Yellow
-        Me.PluginsToolStripMenuItem1.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Extensions
+        Me.PluginsToolStripMenuItem1.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Extensions
         Me.PluginsToolStripMenuItem1.Name = "PluginsToolStripMenuItem1"
         Me.PluginsToolStripMenuItem1.Size = New System.Drawing.Size(133, 38)
         Me.PluginsToolStripMenuItem1.Text = "Plugins"
@@ -1988,7 +1987,7 @@ Partial Class FormCompiler
         Me.UpdatesToolStripMenuItem1.BackgroundImage = CType(resources.GetObject("UpdatesToolStripMenuItem1.BackgroundImage"), System.Drawing.Image)
         Me.UpdatesToolStripMenuItem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.UpdatesToolStripMenuItem1.ForeColor = System.Drawing.Color.Yellow
-        Me.UpdatesToolStripMenuItem1.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Extensions
+        Me.UpdatesToolStripMenuItem1.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Extensions
         Me.UpdatesToolStripMenuItem1.Name = "UpdatesToolStripMenuItem1"
         Me.UpdatesToolStripMenuItem1.Size = New System.Drawing.Size(133, 38)
         Me.UpdatesToolStripMenuItem1.Text = "Updates"
@@ -1998,7 +1997,7 @@ Partial Class FormCompiler
         Me.DevicesToolStripMenuItem.BackgroundImage = CType(resources.GetObject("DevicesToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.DevicesToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.DevicesToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow
-        Me.DevicesToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Extensions
+        Me.DevicesToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Extensions
         Me.DevicesToolStripMenuItem.Name = "DevicesToolStripMenuItem"
         Me.DevicesToolStripMenuItem.Size = New System.Drawing.Size(133, 38)
         Me.DevicesToolStripMenuItem.Text = "Devices"
@@ -2008,7 +2007,7 @@ Partial Class FormCompiler
         Me.AvatarsToolStripMenuItem1.BackgroundImage = CType(resources.GetObject("AvatarsToolStripMenuItem1.BackgroundImage"), System.Drawing.Image)
         Me.AvatarsToolStripMenuItem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.AvatarsToolStripMenuItem1.ForeColor = System.Drawing.Color.Yellow
-        Me.AvatarsToolStripMenuItem1.Image = Global.VB_IDE.My.Resources.Resources.FileIcon_Extensions
+        Me.AvatarsToolStripMenuItem1.Image = Global.VB_Repl.My.Resources.Resources.FileIcon_Extensions
         Me.AvatarsToolStripMenuItem1.Name = "AvatarsToolStripMenuItem1"
         Me.AvatarsToolStripMenuItem1.Size = New System.Drawing.Size(133, 38)
         Me.AvatarsToolStripMenuItem1.Text = "Avatars"
@@ -2019,7 +2018,7 @@ Partial Class FormCompiler
         Me.ProjectToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ProjectToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AssemblysToolStripMenuItem, Me.EmbededFilesToolStripMenuItem, Me.FilesToolStripMenuItem})
         Me.ProjectToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ProjectToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Group
+        Me.ProjectToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Group
         Me.ProjectToolStripMenuItem.Name = "ProjectToolStripMenuItem"
         Me.ProjectToolStripMenuItem.Size = New System.Drawing.Size(174, 38)
         Me.ProjectToolStripMenuItem.Text = "Project"
@@ -2030,7 +2029,7 @@ Partial Class FormCompiler
         Me.AssemblysToolStripMenuItem.BackgroundImage = CType(resources.GetObject("AssemblysToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.AssemblysToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.AssemblysToolStripMenuItem.ForeColor = System.Drawing.Color.Cyan
-        Me.AssemblysToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Floder
+        Me.AssemblysToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Floder
         Me.AssemblysToolStripMenuItem.Name = "AssemblysToolStripMenuItem"
         Me.AssemblysToolStripMenuItem.Size = New System.Drawing.Size(166, 38)
         Me.AssemblysToolStripMenuItem.Text = "Assemblys"
@@ -2041,7 +2040,7 @@ Partial Class FormCompiler
         Me.EmbededFilesToolStripMenuItem.BackgroundImage = CType(resources.GetObject("EmbededFilesToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.EmbededFilesToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.EmbededFilesToolStripMenuItem.ForeColor = System.Drawing.Color.Cyan
-        Me.EmbededFilesToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Floder
+        Me.EmbededFilesToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Floder
         Me.EmbededFilesToolStripMenuItem.Name = "EmbededFilesToolStripMenuItem"
         Me.EmbededFilesToolStripMenuItem.Size = New System.Drawing.Size(166, 38)
         Me.EmbededFilesToolStripMenuItem.Text = "Embeded Files"
@@ -2052,7 +2051,7 @@ Partial Class FormCompiler
         Me.FilesToolStripMenuItem.BackgroundImage = CType(resources.GetObject("FilesToolStripMenuItem.BackgroundImage"), System.Drawing.Image)
         Me.FilesToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.FilesToolStripMenuItem.ForeColor = System.Drawing.Color.Cyan
-        Me.FilesToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.App_Floder
+        Me.FilesToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.App_Floder
         Me.FilesToolStripMenuItem.Name = "FilesToolStripMenuItem"
         Me.FilesToolStripMenuItem.Size = New System.Drawing.Size(166, 38)
         Me.FilesToolStripMenuItem.Text = "Files"
@@ -2064,7 +2063,7 @@ Partial Class FormCompiler
         Me.InteractiveREPLToolStripMenuItem.Checked = True
         Me.InteractiveREPLToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.InteractiveREPLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.InteractiveREPLToolStripMenuItem.Image = Global.VB_IDE.My.Resources.Resources.APP_icon_Terminal
+        Me.InteractiveREPLToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_Terminal
         Me.InteractiveREPLToolStripMenuItem.Name = "InteractiveREPLToolStripMenuItem"
         Me.InteractiveREPLToolStripMenuItem.Size = New System.Drawing.Size(174, 38)
         Me.InteractiveREPLToolStripMenuItem.Text = "Interactive REPL"
