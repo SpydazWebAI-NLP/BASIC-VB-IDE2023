@@ -1,4 +1,4 @@
-﻿# Basic VB.net Compiler (VB.NET)
+﻿# Basic VB.net Compiler / Repl (VB.NET)
 
 VBCompiler is a code compiler written in Visual Basic. It enables you to compile Visual Basic source code into executable files or in-memory assemblies.
 
