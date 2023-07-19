@@ -48,7 +48,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\LCARS_ICON_ENV.ICO</ApplicationIcon>
+    <ApplicationIcon>Resources\LCARS_ICON_APP.ICO</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
