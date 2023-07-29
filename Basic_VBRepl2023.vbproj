@@ -78,28 +78,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3.VbCompiler.vb" />
-    <Compile Include="ClassSpydazWebLineNumbering.vb">
+    <Compile Include="Source\3.VbCompiler.vb" />
+    <Compile Include="Controls\ClassSpydazWebLineNumbering.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ClassSpydazWebTabcontrol.vb">
+    <Compile Include="Controls\ClassSpydazWebTabcontrol.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ClassSpydazWebTextBox.vb">
+    <Compile Include="Controls\ClassSpydazWebTextBox.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ClassTreeView.designer.vb">
+    <Compile Include="Controls\ClassTreeView.designer.vb">
       <DependentUpon>ClassTreeView.vb</DependentUpon>
     </Compile>
-    <Compile Include="ClassTreeView.vb" />
-    <Compile Include="CompilerProjects.vb" />
-    <Compile Include="FormCompiler.designer.vb">
+    <Compile Include="Controls\ClassTreeView.vb" />
+    <Compile Include="Source\CompilerProjects.vb" />
+    <Compile Include="IDE\FormCompiler.designer.vb">
       <DependentUpon>FormCompiler.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormCompiler.vb">
+    <Compile Include="IDE\FormCompiler.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterTabControl.vb" />
+    <Compile Include="Controls\InteractiveReplNode.designer.vb">
+      <DependentUpon>InteractiveReplNode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InteractiveReplNode.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MasterTabControl.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -116,26 +122,38 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="SysExtensions.vb" />
+    <Compile Include="Controls\ReplGrid.Designer.vb">
+      <DependentUpon>ReplGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ReplGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\SysExtensions.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ClassSpydazWebTextBox.en.resx">
+    <EmbeddedResource Include="Controls\ClassSpydazWebTextBox.en.resx">
       <DependentUpon>ClassSpydazWebTextBox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClassSpydazWebTextBox.resx">
+    <EmbeddedResource Include="Controls\ClassSpydazWebTextBox.resx">
       <DependentUpon>ClassSpydazWebTextBox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClassTreeView.resx">
+    <EmbeddedResource Include="Controls\ClassTreeView.resx">
       <DependentUpon>ClassTreeView.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCompiler.resx">
+    <EmbeddedResource Include="IDE\FormCompiler.resx">
       <DependentUpon>FormCompiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\InteractiveReplNode.resx">
+      <DependentUpon>InteractiveReplNode.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ReplGrid.resx">
+      <DependentUpon>ReplGrid.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
