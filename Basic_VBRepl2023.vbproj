@@ -78,6 +78,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeGenerator.vb" />
     <Compile Include="Source\3.VbCompiler.vb" />
     <Compile Include="Controls\ClassSpydazWebLineNumbering.vb">
       <SubType>Component</SubType>
@@ -168,6 +169,7 @@
     </None>
     <None Include="App.config" />
     <None Include="ReadMe.md" />
+    <None Include="SNippets.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add_to_favourites.png" />
@@ -1197,6 +1199,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wolframalpha_logo_feature.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

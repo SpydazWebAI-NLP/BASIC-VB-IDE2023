@@ -1,0 +1,18 @@
+﻿{
+  "objectOrientedModels": {
+    "Class": "Public Class MyClass\r\nEnd Class",
+    "Interface": "Public Interface MyInterface\r\nEnd Interface",
+    "AbstractClass": "Public MustInherit Class MyAbstractClass\r\nEnd Class",
+    "Inheritance": "Public Class ChildClass\r\n    Inherits ParentClass\r\nEnd Class",
+    "Polymorphism": "Public Class Dog\r\n    Public Overrides Sub MakeSound()\r\n        Console.WriteLine(\"Bark!\")\r\n    End Sub\r\nEnd Class"
+  },
+  "nlpProjects": {
+    "POSTagging": "Dim taggedWords = POSTagger.TagWords(sentence)",
+    "NamedEntityRecognition": "Dim entities = NER.RecognizeEntities(text)",
+    "SentimentDetection": "Dim sentiment = SentimentAnalyzer.AnalyzeSentiment(text)",
+    "Tokenization": "Dim tokens = Tokenizer.Tokenize(text)",
+    "Similarity": "Dim similarityScore = SimilarityCalculator.CalculateSimilarity(text1, text2)",
+    "NeuralNetworkGeneration": "Dim neuralNetwork = NeuralNetworkBuilder.BuildNetwork(layers)",
+    "BasicLanguageModeling": "Dim languageModel = LanguageModelBuilder.BuildModel(corpus)"
+  }
+}
