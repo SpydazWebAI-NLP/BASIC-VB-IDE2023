@@ -38,8 +38,8 @@ Partial Class ReplGrid
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DLLToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.GroupBoxCells = New System.Windows.Forms.GroupBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPageObjectBrowser = New System.Windows.Forms.TabPage()
         Me.GroupBox38 = New System.Windows.Forms.GroupBox()
@@ -66,8 +66,8 @@ Partial Class ReplGrid
         Me.ClearAssemblyToolStripMenuItem = New System.Windows.Forms.ToolStripButton()
         Me.TabPageInteractiveReplScript = New System.Windows.Forms.TabPage()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.InteractiveReplScript = New Controls.SpydazWebTextBox()
-        Me.SpydazWebLineNumbering2 = New Controls.SpydazWebLineNumbering()
+        Me.InteractiveReplScript = New VB_Repl.Controls.SpydazWebTextBox()
+        Me.SpydazWebLineNumbering2 = New VB_Repl.Controls.SpydazWebLineNumbering()
         Me.ToolStripInteractiveRepl = New System.Windows.Forms.ToolStrip()
         Me.ToolStripSeparator12 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButtonExecuteInteractive = New System.Windows.Forms.ToolStripButton()
@@ -75,7 +75,9 @@ Partial Class ReplGrid
         Me.ToolStripButtonClearInteractive = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripTextBoxClassNameInteractive = New System.Windows.Forms.ToolStripTextBox()
         Me.ToolStripTextBoxFunctionNameInteractive = New System.Windows.Forms.ToolStripTextBox()
-        Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox()
+        Me.TabControlProjectTools = New System.Windows.Forms.TabControl()
+        Me.TabPageMAIN = New System.Windows.Forms.TabPage()
+        Me.GroupBoxCells = New System.Windows.Forms.GroupBox()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -98,6 +100,8 @@ Partial Class ReplGrid
         Me.TabPageInteractiveReplScript.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.ToolStripInteractiveRepl.SuspendLayout()
+        Me.TabControlProjectTools.SuspendLayout()
+        Me.TabPageMAIN.SuspendLayout()
         Me.SuspendLayout()
         '
         'SplitContainer1
@@ -130,7 +134,7 @@ Partial Class ReplGrid
         '
         'SplitContainer2.Panel2
         '
-        Me.SplitContainer2.Panel2.Controls.Add(Me.GroupBoxCells)
+        Me.SplitContainer2.Panel2.Controls.Add(Me.TabControlProjectTools)
         Me.SplitContainer2.Size = New System.Drawing.Size(655, 420)
         Me.SplitContainer2.SplitterDistance = 39
         Me.SplitContainer2.TabIndex = 0
@@ -153,7 +157,7 @@ Partial Class ReplGrid
         Me.ToolStripDropDownButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ToolStripDropDownButton5.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainClassNameToolStripMenuItem, Me.ExecuteFunctionNAmeToolStripMenuItem, Me.SetProgrammingLanguageToolStripMenuItem})
         Me.ToolStripDropDownButton5.ForeColor = System.Drawing.Color.DimGray
-        Me.ToolStripDropDownButton5.Image = My.Resources.Resources.APP_Tools
+        Me.ToolStripDropDownButton5.Image = Global.VB_Repl.My.Resources.Resources.APP_Tools
         Me.ToolStripDropDownButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripDropDownButton5.Name = "ToolStripDropDownButton5"
         Me.ToolStripDropDownButton5.Size = New System.Drawing.Size(141, 36)
@@ -214,7 +218,7 @@ Partial Class ReplGrid
         Me.ToolStripComboBoxProgLang.BackColor = System.Drawing.Color.LavenderBlush
         Me.ToolStripComboBoxProgLang.Items.AddRange(New Object() {"Visual Basic", "C#"})
         Me.ToolStripComboBoxProgLang.Name = "ToolStripComboBoxProgLang"
-        Me.ToolStripComboBoxProgLang.Size = New System.Drawing.Size(200, 25)
+        Me.ToolStripComboBoxProgLang.Size = New System.Drawing.Size(200, 27)
         '
         'ButtonBuild
         '
@@ -255,7 +259,7 @@ Partial Class ReplGrid
         Me.ExeToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
         Me.ExeToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_SucessBuild
         Me.ExeToolStripMenuItem.Name = "ExeToolStripMenuItem"
-        Me.ExeToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.ExeToolStripMenuItem.Size = New System.Drawing.Size(106, 24)
         Me.ExeToolStripMenuItem.Text = "EXE"
         '
         'DLLToolStripMenuItem
@@ -264,8 +268,16 @@ Partial Class ReplGrid
         Me.DLLToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
         Me.DLLToolStripMenuItem.Image = Global.VB_Repl.My.Resources.Resources.APP_icon_UnsucessBuild
         Me.DLLToolStripMenuItem.Name = "DLLToolStripMenuItem"
-        Me.DLLToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.DLLToolStripMenuItem.Size = New System.Drawing.Size(106, 24)
         Me.DLLToolStripMenuItem.Text = "DLL"
+        '
+        'ToolStripTextBox1
+        '
+        Me.ToolStripTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ToolStripTextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripTextBox1.Name = "ToolStripTextBox1"
+        Me.ToolStripTextBox1.Size = New System.Drawing.Size(100, 39)
+        Me.ToolStripTextBox1.Text = "ProjectName"
         '
         'ToolStripButton1
         '
@@ -277,17 +289,6 @@ Partial Class ReplGrid
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(71, 36)
         Me.ToolStripButton1.Text = "Add Cell"
-        '
-        'GroupBoxCells
-        '
-        Me.GroupBoxCells.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupBoxCells.Font = New System.Drawing.Font("Continuum Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBoxCells.Location = New System.Drawing.Point(0, 0)
-        Me.GroupBoxCells.Name = "GroupBoxCells"
-        Me.GroupBoxCells.Size = New System.Drawing.Size(655, 377)
-        Me.GroupBoxCells.TabIndex = 0
-        Me.GroupBoxCells.TabStop = False
-        Me.GroupBoxCells.Text = "Project"
         '
         'TabControl1
         '
@@ -710,13 +711,37 @@ Partial Class ReplGrid
         Me.ToolStripTextBoxFunctionNameInteractive.Size = New System.Drawing.Size(200, 39)
         Me.ToolStripTextBoxFunctionNameInteractive.Text = "ExecuteCode"
         '
-        'ToolStripTextBox1
+        'TabControlProjectTools
         '
-        Me.ToolStripTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ToolStripTextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.ToolStripTextBox1.Name = "ToolStripTextBox1"
-        Me.ToolStripTextBox1.Size = New System.Drawing.Size(100, 39)
-        Me.ToolStripTextBox1.Text = "ProjectName"
+        Me.TabControlProjectTools.Controls.Add(Me.TabPageMAIN)
+        Me.TabControlProjectTools.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControlProjectTools.Location = New System.Drawing.Point(0, 0)
+        Me.TabControlProjectTools.Name = "TabControlProjectTools"
+        Me.TabControlProjectTools.SelectedIndex = 0
+        Me.TabControlProjectTools.Size = New System.Drawing.Size(655, 377)
+        Me.TabControlProjectTools.TabIndex = 0
+        '
+        'TabPageMAIN
+        '
+        Me.TabPageMAIN.Controls.Add(Me.GroupBoxCells)
+        Me.TabPageMAIN.Location = New System.Drawing.Point(4, 22)
+        Me.TabPageMAIN.Name = "TabPageMAIN"
+        Me.TabPageMAIN.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageMAIN.Size = New System.Drawing.Size(647, 351)
+        Me.TabPageMAIN.TabIndex = 0
+        Me.TabPageMAIN.Text = "MAIN PROJECT"
+        Me.TabPageMAIN.UseVisualStyleBackColor = True
+        '
+        'GroupBoxCells
+        '
+        Me.GroupBoxCells.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GroupBoxCells.Font = New System.Drawing.Font("Continuum Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBoxCells.Location = New System.Drawing.Point(3, 3)
+        Me.GroupBoxCells.Name = "GroupBoxCells"
+        Me.GroupBoxCells.Size = New System.Drawing.Size(641, 345)
+        Me.GroupBoxCells.TabIndex = 1
+        Me.GroupBoxCells.TabStop = False
+        Me.GroupBoxCells.Text = "Project"
         '
         'ReplGrid
         '
@@ -757,6 +782,8 @@ Partial Class ReplGrid
         Me.GroupBox4.PerformLayout()
         Me.ToolStripInteractiveRepl.ResumeLayout(False)
         Me.ToolStripInteractiveRepl.PerformLayout()
+        Me.TabControlProjectTools.ResumeLayout(False)
+        Me.TabPageMAIN.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -777,7 +804,6 @@ Partial Class ReplGrid
     Friend WithEvents ExeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DLLToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripButton1 As ToolStripButton
-    Friend WithEvents GroupBoxCells As GroupBox
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPageObjectBrowser As TabPage
     Friend WithEvents GroupBox38 As GroupBox
@@ -814,4 +840,7 @@ Partial Class ReplGrid
     Friend WithEvents ToolStripTextBoxClassNameInteractive As ToolStripTextBox
     Friend WithEvents ToolStripTextBoxFunctionNameInteractive As ToolStripTextBox
     Friend WithEvents ToolStripTextBox1 As ToolStripTextBox
+    Friend WithEvents TabControlProjectTools As TabControl
+    Friend WithEvents TabPageMAIN As TabPage
+    Friend WithEvents GroupBoxCells As GroupBox
 End Class
